@@ -1,0 +1,258 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* nav-bar */
+.nav-bar{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #121212;
+  color: white;
+  font-size: 17px;
+  position: fixed;
+}
+#nav-span{
+  color: purple;
+}
+#nav-para{
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-title{
+  margin-left: 100px;
+}
+.nav-list{
+  margin-left: 200px;
+}
+.nav-list #nav-ul{
+  display: flex;
+}
+.nav-list #nav-ul .nav-li{
+  list-style: none;
+  margin-left: 50px;
+}
+.nav-list #nav-ul .nav-li .nav-link{
+  text-decoration: none;
+  color: white;
+}
+
+#nav-resume-ul .nav-resume-li{
+  list-style: none;
+}
+#nav-resume-ul .nav-resume-li .nav-reume-link{
+  text-decoration: none;
+  color: white;
+}
+.nav-resume{
+  margin-left: 250px;
+  width: 100px;
+  text-align: center;
+  background-color: green;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+
+/* Footer section */
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-color:#121212;
+  color: white;
+}
+.footer-para-1{
+  margin-top: 10px;
+}
+
+.footer-list{
+  margin-top: 15px;
+}
+.footer-list #footer-ul{
+  display: flex;
+}
+.footer-list #footer-ul .footer-li{
+  list-style: none;
+}
+.footer-list #footer-ul .footer-li .footer-link{
+  text-decoration: none;
+  color: rgb(177, 39, 241);
+  margin-left: 20px;
+}
+i{
+  color: white;
+}
+
+
+/* HOME page */
+#pro-image{
+  width:250px;
+  height: 300px;
+  box-shadow: 3px 3px 2px blueviolet;
+  border-radius: 20px;
+}
+.home-about{
+  margin-top: 70px;
+}
+.outer-container{
+  background-color: #232323;
+  color: white;
+}
+.home-conatiner{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 100px;
+}
+#home-para-1{
+  color:blueviolet;
+  font-size: 20px;
+  font-weight: 700;
+}
+#home-para-2{
+  color:rgb(14, 217, 48);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.home-para-3{
+  color: white;
+  text-align: justify;
+  max-width: 600px;
+  line-height: 1.4;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* about-section */
+.about-section{
+  padding-bottom: 70px;
+}
+
+
+/* Project Section */
+.home-project-1{
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px blueviolet;
+  max-width: fit-content;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+#homeproject-image1{
+  width: 250px;
+  height: 250px;
+}
+
+#home-project-heading{
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#project1-title{
+  color: rgb(113, 234, 238);
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.project-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.project-list{
+  margin-left: 30px;
+}
+#project1-btn{
+  width: 150px;
+  padding: 5px;
+  background-color: green;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#project1-link{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.project-sec{
+  padding-top: 150px;
+}
+
+
+/* skill section */
+.python-icon{
+  width: 100px;
+  height: 100px;
+}
+
+.skill-container{
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+
+}
+
+.skill-icon{
+  margin-left: 80px;
+  margin-top: 80px;
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px blueviolet;
+  text-align: center;
+}
+#home-skill{
+  text-align: center;
+  margin-top: 70px;
+}
+#skill-heading{
+  color: white;
+  padding-top: 80px;
+  text-align: center;
+}
+
+
+/* resume section */
+#resume-img{
+  width: 800px;
+  height: 600px;
+}
+.resume-section{
+  padding-top: 100px;
+  margin-left: 240px;
+  padding-bottom: 30px;
+
+}
+#resume-dwld-btn{
+  padding: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  align-content: center;
+  margin-left: 530px;
+  margin-bottom: 40px;
+}
+#resume-dwld-btn a{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
