@@ -14,7 +14,7 @@ const Footer=()=>{
                     <ul id="footer-ul">
                         <li className="footer-li"><Link className="footer-link" to="https://github.com/Surajangadi03" target='_blank'>Github <i class="fa-brands fa-github footer-icon"></i> </Link></li>
                         <li className="footer-li"><Link className="footer-link" to="https://www.linkedin.com/in/suraj-angadi-232b0a333/" target='_blank'>LinkedIn <i class="fa-brands fa-linkedin footer-icon"></i></Link></li>
-                        <li className="footer-li"><Link className="footer-link" to="https://portfolio-website-lemon-alpha-46.vercel.app/" target='_blank'>Portfolio <i class="fa-solid fa-briefcase"></i></Link></li>
+                        <li className="footer-li"><Link className="footer-link" to="#" target='_blank'>Portfolio <i class="fa-solid fa-briefcase"></i></Link></li>
                     </ul>
                 </div>
             </div>
